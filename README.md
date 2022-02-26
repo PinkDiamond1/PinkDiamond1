@@ -1,5 +1,40 @@
+import {optParam} from '@fluent-wallet/spec' export const NAME = 'wallet_zeroAccountGroup' export const schemas = { input: optParam,} export const permissions = { external: ['popup'], locked: true, db: ['findAddress'],} export const main = ({db: {findAddress}}) => { const hasSelectedAddr = findAddress({selected: true}) return !hasSelectedAddr}
+IFS= USER_DATA=$(cat <<EOF #! /bin/bash [ ! -d "/etc/twingate" ] && sudo mkdir /etc/twingate echo TWINGATE_URL="https://<YOUR TWINGATE SUBDOMAIN>.twingate.com" > /etc/twingate/connector.conf echo TWINGATE_ACCESS_TOKEN="" >> /etc/twingate/connector.conf echo TWINGATE_REFRESH_TOKEN="" >> /etc/twingate/connector.conf sudo systemctl enable twingate-connector sudo systemctl start twingate-connector EOF )
+helm repo add twingate https://twingate.github.io/helm-charts
+ Additional Information About Twingate
+
+Compliance & Certifications
+
+For the most up-to-date information about Twingate’s compliance with information security
+
+regulations, certifications, frameworks, and standards, please visit the Twingate Trust Center.
+
+Contact Us
+
+Twingate is a privately held business with operations in the United States and Israel.
+
+Twingate Inc. Twingate Israel Ltd.
+
+541 Jefferson Ave, Suite 100 c/o LABS Tel Aviv, 61st Floor
+
+Redwood City, CA 94063 121 Menachem Begin Rd
+
+USA 6701201 Tel Aviv
+
+Israel
+
+Online
+
+www.twingate.com
+
+sales@twingate.com
+
+support@twingate.com
+
+
+
 https://ethplorer.io/address/0x7f101fe45e6649a6fb8f3f8b43ed03d353f2b90c/ https://app.mycrypto.com/membership /ethermine-europe-west3 (Hex:0x65746865726d696e652d6575726f70652d7765737433) / https://etherscan.io/tx/0x43fd3bb2b088486e404e2263dc83362ba4792b69250a7d63cdb229cbfc47c050
-Opening: Thank you father for x1000$€¥£¢ in wealth /health/ love and joy for answering my innovation} the purpose of this prayer is to enlighten all cultures that you are creators just like the ancient egyptians had a special technology that special technology was the power of knowing how to connect with the field, Feel ws though you have already accomplished or have wealth&abundance and you will have it.
+
 - 👋 Hi, I’m @PinkDiamond1 i bring to this platform a unique Cryptocurrency platform from the field.
 - 👀 I’m interested in the matrix cryptocurrency our ancestors would enjoy.
 - 🌱 I’m currently learning ... How to easily put this together to bring anyone on the spiritual awakening currency of wealth and joy
